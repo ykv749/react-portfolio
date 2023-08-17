@@ -3,7 +3,7 @@ import image from '../assets/Image.png'
 
 const Intro = () => {
   return (
-    <section id='intro' className='relative flex items-center justify-between h-[100dvh] gap-5 mobile:justify-center mobile:h-[auto]'>
+    <section id='intro' className='relative flex items-center justify-between h-[100dvh] gap-5 mobile:justify-center mobile:h-[auto] mobile:mt-14'>
         <div className='introContent z-10 mobile:relative mobile:top-9'>
             <span className='text-[25px] mobile:text-[20px]'>Hello,</span><br/>
             <span className='text-[3.5rem] font-semibold mobile:text-[30px]'>I'm <span className='text-[red]'> Yash</span><br/>Frontend Developer</span>
