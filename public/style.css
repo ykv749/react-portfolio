@@ -14,6 +14,7 @@ body {
   padding-left: 4rem;
   padding-right: 4rem;
   font-family: "Poppins";
+  max-width: 1920px;
 }
 
 @media only screen and (max-width: 767px) {
