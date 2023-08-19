@@ -7,7 +7,7 @@ import react from '../assets/react.png';
 
 const Skills = () => {
   return (
-    <div>
+    <div className='mobile:mt-1'>
       <p className='text-3xl'>My Skills</p>
       <div className='flex flex-wrap gap-2 items-center'>
         <img src={html5} className='w-[8rem] h-[8rem] mobile:w-[4rem] mobile:h-[4rem]' alt='html5' />
