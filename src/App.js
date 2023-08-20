@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './components/footer';
 import Intro from './components/intro';
 import Navbar from './components/navbar';
 import Skills from './components/skills';
@@ -9,6 +10,7 @@ function App() {
       <Navbar />
       <Intro />
       <Skills />
+      <Footer />
     </>
   );
 }
